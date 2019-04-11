@@ -1,0 +1,12 @@
+language: java
+sudo: false
+jdk:
+- openjdk8
+install: true
+script: "./travis.sh"
+env:
+  global:
+    - BUILD_SNAPSHOTS_BRANCH=travis
+    - ARTIFACTORY_URL=https://mifos.jfrog.io/mifos
+    - ARTIFACTORY_USER=travis-ci
+    - secure: "WVbH2v/YbIcxaYVkiQv6uZ9t76H636ZwinS6zpx6pwCVdcLcPpINcuzy9/WOxNdbXGmGkP8W5ojo+UsBbQPHEr8U8S1ef3Maru1U1uhi2TODNvKyowsfvyg+X8boR07iFYnTBsD8zjD8dh+RrHcdVRxAZgsuUB3VZegzA/4xsMZQGwnSjNO2b/PMR3JuMf9ItKgiNbFCf9DrfmevJaXMGDzeiET9GvtYSsJl7Y4uzQdh5lZ/s2cfFtAM3rH4wP5TgHa6p8YI6Sb/mfUidVMPjmRk7eVALmHNZw1cuUYHjkQpvfIzprhnhevXERU9z/itcH/a0lPTRT31fh1sd8evrw8e6Vr9xNphILat2iuc+anWmpA2r7il1wRN5YGxgbsJB2TgvtqyxycO0zF89HZjWRGtG0V73O23iVTe5BpGYfOBXWrR+9VoEKy2iTkohJjz8K0Gaq73Zs0gMbgJW1rNBIMAXQcEy1XS6Ch75bxFv11YzwoZ4ATAZrg24BDBNMVRtaylkME9Ts+3CytbhGLRKHwrTFDd8F0jV5gKyAeg1e/Qn3XXbWtYj2OZKNyDuVzu2B0VYwAphlLs96Qi56sjeR9+oJEgakPpzjzXcF+m4MYKOgDu1ov6HJMizZMFKiNVVjjt7rqogLmJUHTBrNFb/85OInqsCH/jOHarHByPOyc="

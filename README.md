@@ -1,3 +1,8 @@
+TODO switch to apache!
+
+[![Build Status](https://api.travis-ci.com/aasaru/fineract-cn-mariadb.svg?branch=travis)](https://travis-ci.com/aasaru/fineract-cn-mariadb)
+
+
 # Apache Fineract CN MariaDB
 
 ## Abstract
